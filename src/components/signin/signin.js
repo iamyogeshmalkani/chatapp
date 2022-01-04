@@ -9,7 +9,7 @@ function SignIn(props) {
   return (
     <div className="signin">
     <h1 className="heading">Chit Chat</h1>
-    <p className="body">The Easiest way to chat with people around Patel Nagar </p>
+    <p className="body">The Easiest way to chat with people   </p>
       <button className="google" onClick={signInWithGoogle}>Sign In With Google</button>
     </div>
   )
