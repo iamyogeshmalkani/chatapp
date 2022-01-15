@@ -59,7 +59,7 @@ const dummy = useRef();
   return (
     <div className="main">
       <div>
-      <a href="https://www.instagram.com/memes_of_patel_nagar/?hl=en" className="patel" >Patel Nagar Chat</a>
+      <a href="https://www.instagram.com/memes_of_patel_nagar/?hl=en" className="patel" >Chat App</a>
         {/* we will loop over the message and return a
         ChatMessage component for each message */}
         {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
